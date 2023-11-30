@@ -16,12 +16,6 @@ read	link
 echo	"Bucket: <Ver Portal Jotelulu>"
 read	bucket
 
-echo	"Access Key: <Ver Portal Jotelulu no campo Utilizadores>"
-read	access
-
-echo	"Secret Key: <Ver Portal Jotelulu no campo Utilizadores>"
-read	secret
-
 echo	"Nome do Perfil: <Definido na configuração da CLI>"
 read	profile
 
