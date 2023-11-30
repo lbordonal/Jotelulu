@@ -1,0 +1,24 @@
+sudo apt-get install awscli
+
+aws --version
+
+aws configure --profile=3D"nome do perfil"
+
+AWS Access Key ID [None]: Ver Portal
+AWS Secret Access Key ID [None]: Ver Portal
+Default region name [None]: Vazio
+Default output format [None]: JSON
+
+
+backup.sh:
+aws --profile=3D"backup_lucas" --endpoint-url=https://s3.jotelulu.com s3 sync /home/lbordonal/Downloads/teste_s3/. s3://dep000-repositrios31/Teste_Lucas
+
+
+========================================================
+crontab -e
+
+minute hour dayofthemonth month dayoftheweek command
+30 13 * * * sh /path/backup_s3.sh
+
+
+
