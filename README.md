@@ -26,7 +26,7 @@
 
 1. Clone esse repositório para a máquina local:
     
-    `git clone [git@github.com](mailto:git@github.com):lbordonal/Jotelulu.git`
+    `git clone git@github.com:lbordonal/Jotelulu.git`
     
 2. Execute o arquivo create.sh e preencha os parametros solicitados:
     
